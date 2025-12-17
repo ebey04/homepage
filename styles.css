@@ -51,7 +51,10 @@ h1{
 
 .about-icons{
     display: flex;
-    margin: 0 5rem;
+    /* margin: 0 5rem; */
+    max-width: none !important;
+    width: 100% !important;
+    justify-content: flex-end;
 }
 
 main{
@@ -114,7 +117,34 @@ footer img{
     gap: 1rem;
 }
 
-.icons{
+.footer-icons{
     display: flex;
-    max-width: 35px;
+}
+
+.icons{
+    max-width: 25px;
+}
+
+@media screen and (min-width: 641px){
+    h1{
+        top: 31.5rem;
+        left: 1.25rem;
+        font-size: 4rem;
+    }
+
+    .about-img {
+        max-width: 300px;
+    }
+
+    header{
+        margin: 1rem;
+    }
+
+    .about-me{
+        padding: 1rem;
+    }
+
+    .about-icons{
+        
+    }
 }
