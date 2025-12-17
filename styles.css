@@ -37,7 +37,7 @@ h1{
     position: absolute;
     top: 13rem;
     left: 1rem;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
 }
 
 .about-me{
@@ -46,6 +46,7 @@ h1{
     box-shadow: 2px 2px 4px grey;
     border: none;
     padding: .5rem;
+    background-color: white;
 }
 
 .about-icons{
