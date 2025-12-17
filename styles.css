@@ -1,10 +1,19 @@
 body{
+    padding: 0;
+    box-sizing: border-box;
+
     display: grid;
     grid-template-rows: repeat (3 1fr);
 }
 
 header{
     display: flex;
+}
+
+img{
+    max-inline-size: 100%;
+    padding: .5rem;
+    /* max-width: 200px; */
 }
 
 .about-img{
