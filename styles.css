@@ -133,6 +133,7 @@ footer img{
     body{
         background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 72%, #0891B2 100%)
     }
+
     h1{
         top: 23rem;
         left: 2.25rem;
@@ -175,6 +176,9 @@ footer img{
 }
 
 @media screen and (min-width: 1024px){
+    body{
+        background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 68%, #0891B2 100%)
+    }
 
     header {
         display: grid;
@@ -200,17 +204,17 @@ footer img{
     }
 
     h1{
-        top: 34rem;
-        left: 14rem;
-        font-size: 7rem;
+        top: 38rem;
+        left: 12rem;
+        font-size: 5.25rem;
     }
 
     h2{
-        font-size: 3rem;
+        font-size: rem;
     }
 
     h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .about-icons{
@@ -218,7 +222,7 @@ footer img{
     }
 
     .icons{
-        max-width:  70px;
+        max-width: 50px;
     }
     .card-container{
         grid-template-columns: repeat(3, 1fr);
@@ -227,15 +231,15 @@ footer img{
     }
 
     .card-header{
-        gap: 15rem;
+        gap: 5rem;
+    }
+
+    .work-links{
+        gap: 1rem
     }
 
     footer{
         justify-content: space-evenly;
-    }
-
-    footer p, address{
-        font-size: 2.5rem;
     }
 
     .left-col{
@@ -251,8 +255,7 @@ footer img{
     }
 
     footer img{
-        max-width: 500px;
-        max-height: 700px;
+        max-width: 450px;
     }
 
 }
