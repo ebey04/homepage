@@ -12,7 +12,6 @@ header{
 img{
     max-inline-size: 100%;
     padding: .5rem;
-    /* max-width: 200px; */
 }
 
 p{
@@ -28,6 +27,14 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
 }
+
+header img {
+  max-inline-size: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 h1{
     color: white;
@@ -165,6 +172,31 @@ footer img{
     footer img{
         max-width: 300px;
     }
+}
 
+@media screen and (min-width: 1024px){
 
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .about-img {
+        max-width: unset;
+    }
+
+    .about-img img {
+        object-fit: cover;
+        max-width: 70%;
+        align-self: end;
+    }
+
+    .about-me {
+        max-width: 600px;   /* keeps it card-sized */
+        margin-top: 4rem;   /* drops it lower so image feels taller */
+    }
+    .card-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
