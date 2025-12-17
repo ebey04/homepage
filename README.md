@@ -3,7 +3,7 @@
 This is a responsive personal homepage built as part of **The Odin Project** curriculum.  
 
 ## 🔗 Live Demo
-👉 (Add your GitHub Pages link here once deployed)
+👉 https://ebey04.github.io/homepage/
 
 ## 🛠 Built With
 - HTML5
