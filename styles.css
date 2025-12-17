@@ -127,9 +127,9 @@ footer img{
 
 @media screen and (min-width: 641px){
     h1{
-        top: 31.5rem;
-        left: 1.25rem;
-        font-size: 4rem;
+        top: 23rem;
+        left: 2.25rem;
+        font-size: 2.75rem;
     }
 
     .about-img {
@@ -144,7 +144,11 @@ footer img{
         padding: 1rem;
     }
 
-    .about-icons{
-        
+    h2{
+        font-size: 2rem;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
