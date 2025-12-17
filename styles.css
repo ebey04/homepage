@@ -52,4 +52,5 @@ footer{
 
 .icons{
     display: flex;
+    max-width: 35px;
 }
