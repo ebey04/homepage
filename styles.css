@@ -4,6 +4,8 @@ body{
 
     display: grid;
     grid-template-rows: repeat (3 1fr);
+
+    background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 90%, #0891B2 100%)
 }
 
 header{
