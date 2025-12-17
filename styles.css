@@ -218,7 +218,7 @@ footer img{
     }
 
     .icons{
-        max-width:  50px;
+        max-width:  70px;
     }
     .card-container{
         grid-template-columns: repeat(3, 1fr);
@@ -228,6 +228,31 @@ footer img{
 
     .card-header{
         gap: 15rem;
+    }
+
+    footer{
+        justify-content: space-evenly;
+    }
+
+    footer p, address{
+        font-size: 2.5rem;
+    }
+
+    .left-col{
+        gap: 3rem;
+    }
+
+    .footer-icons{
+        gap: 4rem
+    }
+
+    .footer-img{
+        max-width: 50px;
+    }
+
+    footer img{
+        max-width: 500px;
+        max-height: 700px;
     }
 
 }
