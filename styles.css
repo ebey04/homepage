@@ -205,9 +205,9 @@ footer img{
     }
 
     h1{
-        top: 36rem;
-        left: 18rem;
-        font-size: 5.5rem;
+        top: 39rem;
+        left: 15rem;
+        font-size: 4.256rem;
     }
 
     h3{
@@ -228,7 +228,7 @@ footer img{
     }
 
     .card-header{
-        gap: 15rem;
+        gap: 8rem;
     }
 
     .work-links{
