@@ -26,6 +26,10 @@ img{
     flex-direction: column;
 }
 
+main{
+    margin: .25rem;
+}
+
 .card-container{
     display: grid;
     grid-template-rows: 1fr;
@@ -36,10 +40,27 @@ img{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    max-width: 95vw;
+    padding-bottom: 3rem;
+    margin: .25rem;
 }
 
 .card-header{
     display: flex;
+    gap: 10rem;
+    padding: 1rem;
+}
+
+.work-links{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 25px;
+}
+
+.description{
+    max-width: 45ch;
+    padding: 0 1rem;
+    margin: 0;
 }
 
 footer{
@@ -54,8 +75,4 @@ footer{
 .icons{
     display: flex;
     max-width: 35px;
-}
-
-.project{
-    max-width: 150px;
 }
