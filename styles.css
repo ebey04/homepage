@@ -104,6 +104,10 @@ footer p{
 footer img{
     max-width: 190px;
 }
+
+.footer-img{
+    max-width: 19px;
+}
 .left-col{
     display: flex;
     flex-direction: column;
