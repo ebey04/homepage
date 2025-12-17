@@ -7,6 +7,7 @@ body{
 
 header{
     display: flex;
+    gap: .52rem;
 }
 
 img{
@@ -26,22 +27,22 @@ h1, h2, h3{
 .about-img{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 header img {
-    max-inline-size: none;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 80%;
+    object-fit: fill;
 }
 
 
 h1{
     color: white;
     position: absolute;
-    top: 32rem;
+    top: 27rem;
     left: 1.5rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .about-me{
@@ -135,9 +136,9 @@ footer img{
     }
 
     h1{
-        top: 23rem;
+        top: 19rem;
         left: 2.25rem;
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
 
     .about-img {
@@ -204,9 +205,9 @@ footer img{
     }
 
     h1{
-        top: 38rem;
-        left: 12rem;
-        font-size: 5.25rem;
+        top: 37rem;
+        left: 9rem;
+        font-size: 4rem;
     }
 
     h2{
