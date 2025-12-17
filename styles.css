@@ -34,6 +34,7 @@ img{
 
 .card{
     display: flex;
+    flex-direction: column;
     border: 1px solid black;
 }
 
@@ -53,4 +54,8 @@ footer{
 .icons{
     display: flex;
     max-width: 35px;
+}
+
+.project{
+    max-width: 150px;
 }
