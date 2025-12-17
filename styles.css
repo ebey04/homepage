@@ -1,7 +1,7 @@
 body{
     padding: 0;
     box-sizing: border-box;
-
+    overflow-x: hidden;
     background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 89%, #0891B2 100%)
 }
 
@@ -205,9 +205,9 @@ footer img{
     }
 
     h1{
-        top: 37rem;
-        left: 9rem;
-        font-size: 4rem;
+        top: 36rem;
+        left: 18rem;
+        font-size: 5.5rem;
     }
 
     h2{
@@ -232,7 +232,7 @@ footer img{
     }
 
     .card-header{
-        gap: 5rem;
+        gap: 15rem;
     }
 
     .work-links{
