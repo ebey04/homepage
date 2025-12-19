@@ -1,7 +1,10 @@
-body{
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+}
+
+body{
     background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 89%, #0891B2 100%)
 }
 
@@ -82,15 +85,30 @@ main{
 }
 
 .card-header{
-    display: flex;
-    gap: 10rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1rem;
     padding: 1rem;
+
+    border: 2px solid red;
+}
+
+.card-header h3 {
+    margin: 0;
+    min-width: 0;
+}
+
+.card-header img {
+    display: block;
 }
 
 .work-links{
     display: flex;
-    justify-content: space-evenly;
-    max-width: 25px;
+    gap: .5rem;
+    justify-content: flex-end;
+
+    border: 2px solid limegreen;
 }
 
 .description{
@@ -127,5 +145,5 @@ footer img{
 }
 
 .icons{
-    max-width: 25px;
+    max-width: 50px;
 }
