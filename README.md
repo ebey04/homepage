@@ -20,9 +20,10 @@ This is a responsive personal homepage built as part of **The Odin Project** cur
 - Contact and social media links
 
 ## 📐 Responsive Breakpoints
-- **Mobile:** default styles
-- **Tablet:** `min-width: 641px`
-- **Desktop:** `min-width: 1024px`
+This layout uses modern CSS Grid and Flexbox techniques (`auto-fit`, `minmax()`, and `clamp()`)
+to adapt fluidly across screen sizes without explicit media queries.
+
+The browser determines layout changes based on available space rather than fixed breakpoints.
 
 ## ♿ Accessibility
 - Semantic HTML (`header`, `main`, `footer`)
@@ -41,6 +42,10 @@ This is a responsive personal homepage built as part of **The Odin Project** cur
 
 ## 📌 Notes
 This project focuses on layout, responsiveness, and accessibility fundamentals rather than JavaScript functionality. It is intended as a foundation for future portfolio projects.
+
+### 🔄 Refactor Notes
+This project was refactored to improve responsiveness and simplify layout logic using modern
+CSS Grid and Flexbox techniques.
 
 ## 👩‍💻 Author
 **Elizabeth Bey**
