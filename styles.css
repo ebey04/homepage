@@ -126,7 +126,8 @@ footer p{
 }
 
 footer img{
-    max-width: 190px;
+    max-width: 80%;
+    margin-left: auto;
 }
 
 .footer-img{
