@@ -5,12 +5,12 @@
 }
 
 body{
-    background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 89%, #0891B2 100%)
+    background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 89%, #0891B2 100%);
 }
 
 header{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: .52rem;
 }
 
@@ -67,7 +67,7 @@ main{
 
 .card-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
     gap: 1rem;
 }
 
