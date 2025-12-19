@@ -120,6 +120,10 @@ footer{
     color: #FFF;
 }
 
+footer h2{
+    font-size: clamp(2rem, 7vw, 3.5rem);
+}
+
 footer p{
     color: #FFF;
     margin: 0;
