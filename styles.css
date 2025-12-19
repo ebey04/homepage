@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background: linear-gradient(to bottom, #0891B2 0%, #FFF 10% 89%, #0891B2 100%);
-} */
-
 header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
@@ -141,6 +137,7 @@ footer img{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin: 1rem;
 }
 
 .footer-icons{
