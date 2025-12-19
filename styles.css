@@ -131,7 +131,7 @@ footer img{
 }
 
 .footer-img{
-    max-width: 10%;
+    max-width: 8%;
 }
 .left-col{
     display: flex;
@@ -141,7 +141,11 @@ footer img{
 }
 
 .footer-icons{
-    display: flex;
+    margin-top: 2rem;
+}
+
+.footer-icons img{
+    margin: 1rem;
 }
 
 .icons{
