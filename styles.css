@@ -65,6 +65,10 @@ main{
     margin: .25rem;
 }
 
+main h2{
+    font-size: clamp(2rem, 7vw, 3.5rem);
+}
+
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
